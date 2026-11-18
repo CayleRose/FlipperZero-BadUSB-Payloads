@@ -1,14 +1,14 @@
-# Resource Hacker Installation Script for Flipper Zero
+# Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker) Installation Script for Flipper Zero
 
 **Author:** [CayleRose](https://github.com/CayleRose)  
 **License:** MIT
 
 ## Overview
 
-This script automates the installation of [Resource Hacker](http://www.angusj.com/resourcehacker/), a free tool for viewing, modifying, renaming, adding, deleting and extracting resources in 32-bit and 64-bit Windows executables and resource files (.exe, .dll, .scr, .mui, .cpl, etc.).  
+This script automates the installation of [Resource Hacker](http://www.angusj.com/resourcehacker/) or [Resource Cracker](https://www.pelock.com/products/resource-cracker), a free tool for viewing, modifying, renaming, adding, deleting and extracting resources in 32-bit and 64-bit Windows executables and resource files (.exe, .dll, .scr, .mui, .cpl, etc.).  
 It is widely used for customizing application icons, version information, dialogs, menus, strings, accelerators, and other embedded resources, as well as for reverse engineering and modding purposes.
 
-Using Flipper Zero’s **BadUSB** feature with DuckyScript, the script opens an elevated Command Prompt and silently installs the portable version of Resource Hacker via [Chocolatey](https://chocolatey.org/).
+Using Flipper Zero’s **BadUSB** feature with DuckyScript, the script opens an elevated Command Prompt and silently installs the portable version of Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker) via [Chocolatey](https://chocolatey.org/).
 
 > **Note:** Chocolatey must be pre-installed on the target system. If it is not, run a Chocolatey installation payload first.
 
@@ -35,13 +35,13 @@ The script will:
 
 ## Installation Verification
 
-Resource Hacker installs silently if:
+Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker) installs silently if:
 - Chocolatey is already installed
 - Administrative privileges are granted (UAC prompt accepted)
 - An internet connection is available
 
 After installation:
-- Look for ResourceHacker.exe in the Start menu or search for “Resource Hacker”
+- Look for ResourceHacker.exe in the Start menu or search for “Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker)”
 - Or check the installation path (typically `C:\ProgramData\chocolatey\lib\resourcehacker.portable\tools`)
 - Launch ResourceHacker.exe to confirm the interface opens correctly
 
